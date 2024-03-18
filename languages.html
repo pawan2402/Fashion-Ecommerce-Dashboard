@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shelis || An Ecommerce Dashboard </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="navigation-main-container">
+        <nav class="left-side-navbar">
+            <h1>SHELIS</h1>
+
+            <div class="navbar-overview">
+                <img src="assests/images/overview-layout-grid.svg" alt="overview-layout-grid">
+                <a href="overview.html" class="link-navbar-overview">
+                    <h3>Overview</h3>
+                </a>
+            </div>
+
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/layout-catalog.svg" alt="layout-catalog">
+                <a href="products.html" class="link-navbar-overview">
+                    <h3>Catalog</h3>
+                </a>
+                <img src="assests/images/chevron-down.svg" alt="overview-layout-grid">
+            </div>
+
+            <div class="navigation-main-dropdown">
+                <ul class="navigation-ul-dropdown">
+                    <li><a href="products.html">- Products</a></li>
+                    <li><a href="categories.html">- Categories</a></li>
+                    <li><a href="coupons.html">- Coupons</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/users-round.svg" alt="users-round">
+                <a href="customers.html" class="link-navbar-overview">
+                    <h3>Customers</h3>
+                </a>
+            </div>
+
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/package.svg" alt="package">
+                <a href="orders.html" class="link-navbar-overview">
+                    <h3>Orders</h3>
+                </a>
+            </div>
+
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/user-round.svg" alt="user-round">
+                <a href="ourstaf.html" class="link-navbar-overview">
+                    <h3>Our Staf</h3>
+                </a>
+            </div>
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/settings.svg" alt="settings">
+                <a href="settings.html" class="link-navbar-overview">
+                    <h3>Settings</h3>
+                </a>
+            </div>
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/globe.svg" alt="globe">
+                <a href="languages.html" class="link-navbar-overview">
+                    <h3>International</h3>
+
+                </a>
+            </div>
+            <div class="navigation-main-dropdown">
+                <ul class="navigation-ul-dropdown">
+                    <li><a href="languages.html">- Languages</a></li>
+                    <li><a href="currencies.html">- Currencies</a></li>
+                </ul>
+            </div>
+
+            <div class="navbar-navigation-tools ">
+                <img src="assests/images/layers.svg" alt="layers">
+                <a href="#" class="link-navbar-overview-online">
+                    <h3>Online Store</h3>
+                </a>
+            </div>
+        </nav>
+        <div class="right-side-display">
+            <div class="top-menu-box">
+                <div class="top-menu-box-img">
+                    <img src="assests/images/menu.svg" alt="menu">
+                </div>
+                <div class="top-box-tools">
+                    <h3><a href="#">English</a></h3>
+                    <img src="assests/images/chevron-down.svg" alt="chevron-down" class="top-box-tools-arrow">
+                    <img src="assests/images/bell.svg" alt="notification=-icon" class="top-box-tools-notification">
+                    <img src="assests/images/guy-plaid-shirt.jpg" alt="profile-img" class="top-box-tools-profile">
+                </div>
+            </div>
+            <div class="languages-dashboard">
+                <h1>Languages</h1>
+                <div class="languages-tools">
+                    <div class="languages-search-container">
+                        <div class="languages-search-boxes">
+                            <input type="search" placeholder="Search by Language">
+                        </div>
+                    </div>
+                    <div class="languages-tools-del-add">
+                        <button class="del"><img src="assests/images/trash-2.svg" alt="trash-2">
+                            <p>Delete</p>
+                        </button>
+                        <button class="add"><img src="assests/images/plus.svg" alt="plus">
+                            <p>Add Language</p>
+                        </button>
+                    </div>
+                </div>
+                <div class="overview-orders-container">
+                    <div class="coupons-orders-list-container">
+                        <div class="overview-orders-list-title">
+                            <p><input type="checkbox"></p>
+                            <p>SR</p>
+                            <p>NAME</p>
+                            <p>CODE</p>
+                            <p>FLAG</p>
+                            <p>PUBLISHED</p>
+                            <p>ACTIONS</p>
+                        </div>
+                        <div class="overview-orders-list-rows">
+                            <p><input type="checkbox" checked></p>
+                            <p>1</p>
+                            <p>English</p>
+                            <p>en</p>
+                            <p>Flag</p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox" checked>
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p><input type="checkbox"></p>
+                            <p>2</p>
+                            <p>Arabic</p>
+                            <p>ar</p>
+                            <p>Flag</p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p><input type="checkbox"></p>
+                            <p>3</p>
+                            <p>German</p>
+                            <p>de</p>
+                            <p>Flag</p>
+                            <p>
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-list-footer">
+                            <h3>SHOWING 1-3 OF 3</h3>
+                            <div class="overview-btn-nav-of-list">
+                                <button><img src="assests/images/chevron-left.svg" alt=""></button>
+                                <h6>1</h6>
+                                <button><img src="assests/images/chevron-right.svg" alt=""></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
