@@ -11,12 +11,28 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 </head>
 
 <body>
     <div class="navigation-main-container">
+        <input type="checkbox" id="check">
+        <div class="btn_one">
+            <label for="check" style="color: black">
+                <i class="fa-solid fa-bars"></i>
+            </label>
+        </div>
         <nav class="left-side-navbar">
             <h1>SHELIS</h1>
+
+            <div class="btn_two">
+                <label for="check" style="color: rgb(44, 44, 44)">
+                    <i class="fa-solid fa-xmark"></i>
+                </label>
+            </div>
 
             <div class="navbar-overview">
                 <img src="assests/images/overview-layout-grid.svg" alt="overview-layout-grid">
@@ -26,7 +42,7 @@
             </div>
 
 
-            <div class="navbar-navigation-tools ">
+            <div class="navbar-navigation-tools">
                 <img src="assests/images/layout-catalog.svg" alt="layout-catalog">
                 <a href="products.html" class="link-navbar-overview">
                     <h3>Catalog</h3>
@@ -86,7 +102,7 @@
                 </ul>
             </div>
 
-            <div class="navbar-navigation-tools ">
+            <div class="navbar-navigation-tools lft-nav-last-tool">
                 <img src="assests/images/layers.svg" alt="layers">
                 <a href="#" class="link-navbar-overview-online">
                     <h3>Online Store</h3>
@@ -96,7 +112,7 @@
         <div class="right-side-display">
             <div class="top-menu-box">
                 <div class="top-menu-box-img">
-                    <img src="assests/images/menu.svg" alt="menu">
+                    <!-- <img src="assests/images/menu.svg" alt="menu"> -->
                 </div>
                 <div class="top-box-tools">
                     <h3><a href="#">English</a></h3>
@@ -134,131 +150,135 @@
                         </select>
                     </div>
                     <div class="orders-download-btn">
-                        <button><img src="assests/images/download.svg" alt="download" class="download-logo"><p>Download All Orders</p></button>
+                        <button><img src="assests/images/download.svg" alt="download" class="download-logo">
+                            <p>Download All Orders</p>
+                        </button>
                     </div>
                 </div>
                 <div class="overview-orders-list-container">
-                    <div class="overview-orders-list-title">
-                        <p>INVOICE NO</p>
-                        <p>ORDER TIME</p>
-                        <p>CUSTOMER NAME</p>
-                        <p>METHOD</p>
-                        <p>AMOUNT</p>
-                        <p>STATUS</p>
-                        <p>INVOICE</p>
-                    </div>
-                    <div class="overview-orders-list-rows">
-                        <p>10268</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10267</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10266</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10265</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10264</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10263</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10262</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-orders-list-rows">
-                        <p>10261</p>
-                        <p>FEB 29, 2024 2:14 PM</p>
-                        <p class="list-customer-name">jhon doe</p>
-                        <p class="list-customer-method">CASH</p>
-                        <p class="list-customer-amount">$214.58</p>
-                        <p class="list-customer-status">PENDING</p>
-                        <p>
-                            <img src="assests/images/check-circle-2.svg" alt="">
-                            <img src="assests/images/refresh-ccw.svg" alt="">
-                        </p>
-                    </div>
-                    <hr>
-                    <div class="overview-list-footer">
-                        <h3>SHOWING 1-8 OF 289</h3>
-                        <div class="overview-btn-nav-of-list">
-                            <button><img src="assests/images/chevron-left.svg" alt=""></button>
-                            <h6>1</h6>
-                            <p>of</p>
-                            <h5>24</h5>
-                            <button><img src="assests/images/chevron-right.svg" alt=""></button>
+                    <div class="lists-overflow-scroll">
+                        <div class="overview-orders-list-title">
+                            <p>INVOICE NO</p>
+                            <p>ORDER TIME</p>
+                            <p>CUSTOMER NAME</p>
+                            <p>METHOD</p>
+                            <p>AMOUNT</p>
+                            <p>STATUS</p>
+                            <p>INVOICE</p>
+                        </div>
+                        <div class="overview-orders-list-rows">
+                            <p>10268</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10267</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10266</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10265</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10264</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10263</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10262</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-orders-list-rows">
+                            <p>10261</p>
+                            <p>FEB 29, 2024 2:14 PM</p>
+                            <p class="list-customer-name">jhon doe</p>
+                            <p class="list-customer-method">CASH</p>
+                            <p class="list-customer-amount">$214.58</p>
+                            <p class="list-customer-status">PENDING</p>
+                            <p>
+                                <img src="assests/images/check-circle-2.svg" alt="">
+                                <img src="assests/images/refresh-ccw.svg" alt="">
+                            </p>
+                        </div>
+                        <hr>
+                        <div class="overview-list-footer">
+                            <h3>SHOWING 1-8 OF 289</h3>
+                            <div class="overview-btn-nav-of-list">
+                                <button><img src="assests/images/chevron-left.svg" alt=""></button>
+                                <h6>1</h6>
+                                <p>of</p>
+                                <h5>24</h5>
+                                <button><img src="assests/images/chevron-right.svg" alt=""></button>
+                            </div>
                         </div>
                     </div>
                 </div>
